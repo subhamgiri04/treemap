@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <button id="back">Back</button>
+
+        <span id="sorting">
+            Sort By: <select name="" id="sortSel">
+                <option value="n" selected>Name</option>
+                <option value="d">Date Created</option>
+                <option value="s">Size</option>
+            </select>
+
+            Reverse: <input type="checkbox" id="sortRev">
+        </span>
+    </div>
+
+    <div id="root" class="root">
+        <ul></ul>
+        <button id="createBtn">Create new Entry</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

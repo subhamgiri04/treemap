@@ -1,0 +1,91 @@
+a{
+  color: rgb(247, 247, 247);
+}
+
+.item {
+    display: block;
+    overflow-wrap: break-word;
+    color: #ccc;
+    position: relative;
+  }
+
+  .bgimg {
+  background-image: url("/assets/gfx/shunya/bg/shunyaWallaperBG_WO_circle.svg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+  font-size: 25px;
+}
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+nav,header,section,ul,main,article{
+  display: block;
+  margin-left:0;
+  /* width: 100%; */
+}
+nav{
+  height:8rem;
+}
+
+/* .root {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background-color: antiquewhite;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 0px 5px #ccc;
+}
+
+.itemName{
+    background-color: #fff;
+    border: none;
+    color: black;
+} */
+
+/* button{
+    display: block;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 0px 5px #ccc;
+}
+
+#createBtn{
+    width: 30%;
+    padding: 10px;
+    font-size: large;
+    font-weight: 900;
+    color: rgb(16, 187, 0);
+    border-color: rgb(16, 187, 0);
+}
+
+#createBtn:active{
+    box-shadow: none;
+}
+
+#createBtn:hover{
+    color: #fff;
+    background-color: rgb(16, 187, 0);
+} */
+
